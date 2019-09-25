@@ -14,3 +14,5 @@ dependencies {
 }
 
 apply from: '../gradle_mvn_push.gradle'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.feelschaotic'
