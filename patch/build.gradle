@@ -30,10 +30,9 @@ configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 dependencies {
-//    compile 'com.meituan.robust:autopatchbase:' + VERSION_NAME
+    //compile 'com.github.feelschaotic:Robust.autopatchbase:' + VERSION_NAME
     compile project(':autopatchbase')
 }
 
 apply from: '../gradle_mvn_push.gradle'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.feelschaotic'
+
